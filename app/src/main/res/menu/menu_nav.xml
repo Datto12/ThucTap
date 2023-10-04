@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="HOME"
+            android:icon="@drawable/baseline_home_24"
+
+            />
+        <item
+            android:id="@+id/dienthoai"
+            android:title="PHONE"
+            android:icon="@drawable/baseline_phone_android_24"
+            />
+        <item
+            android:id="@+id/laptop"
+            android:title="LAPTOP"
+            android:icon="@drawable/baseline_laptop_mac_24"
+            />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lienhe"
+            android:title="LIÊN HỆ"
+            android:icon="@drawable/baseline_call_24"
+            />
+        <item
+            android:id="@+id/thongtin"
+            android:title="THÔNG TIN"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            />
+    </group>
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LapTop.ChiTietLaptopActivity"
+    android:background="#BFEF95"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imgChiTietLaptop"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dien thoai xin"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/tenChiTietLaptop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gia san pham"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#EA1809"
+                android:id="@+id/giaChiTietLaptop"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mo ta"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/motaChiTietLaptop"
+        android:textColor="#D22FED"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Mua ngay"
+        android:backgroundTint="#E60606"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnMualaptop"
+        />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="30dp"
+    android:backgroundTint="#E8E861"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgLaptop"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#131313"
+            android:textSize="15dp"
+            android:text="Lap top"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tenlaptop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EA1809"
+            android:textSize="15dp"
+            android:text="10000000"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/gialaptop"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
